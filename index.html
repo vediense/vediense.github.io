@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan M. Sánchez</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      border-bottom: 1px solid #e5e7eb;
+      background: #ffffff;
+      position: sticky;
+      top: 0;
+    }
+
+    .nav {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    nav a {
+      margin-left: 18px;
+      text-decoration: none;
+      color: #374151;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: #000000;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 50px;
+      align-items: center;
+      margin-bottom: 70px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0 0 10px 0;
+      color: #111827;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #4b5563;
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      max-width: 650px;
+    }
+
+    .photo-placeholder {
+      background: #f3f4f6;
+      border-radius: 8px;
+      height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #6b7280;
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 55px;
+    }
+
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 14px;
+      color: #111827;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 18px;
+      margin-bottom: 10px;
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid #e5e7eb;
+      padding: 24px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 750px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 14px;
+      }
+
+      h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+    <div class="name">Juan M. Sánchez</div>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#cv">CV</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div>
+      <h1>Juan M. Sánchez</h1>
+      <div class="subtitle">
+        Economist
+      </div>
+
+      <p class="intro">
+        Welcome to my website. My research focuses on macroeconomics,
+        household finance, firm dynamics, financial frictions, and economic growth.
+      </p>
+
+      <div class="links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">CV</a>
+      </div>
+    </div>
+
+    <div class="photo-placeholder">
+      Your photo will go here
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      This section will contain your working papers, current projects,
+      and research agenda.
+    </p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>
+      This section will contain your published papers.
+    </p>
+  </section>
+
+  <section id="cv">
+    <h2>CV</h2>
+    <p>
+      Your curriculum vitae will be available here.
+    </p>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <p>
+      This section will contain your teaching materials and courses.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Email: vediense@gmail.com
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Juan M. Sánchez
+</footer>
+
+</body>
+</html>
